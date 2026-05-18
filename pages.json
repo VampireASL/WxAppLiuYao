@@ -1,17 +1,32 @@
 {
-	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+	"pages": [
 		{
-			"path": "pages/index/index",
+			"path": "pages/home/index",
 			"style": {
-				"navigationBarTitleText": "uni-app"
+				"navigationBarTitleText": "传统文化",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/liuyao/index",
+			"style": {
+				"navigationBarTitleText": "天道",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/compass/index",
+			"style": {
+				"navigationBarTitleText": "指南针",
+				"navigationStyle": "custom"
 			}
 		}
 	],
 	"globalStyle": {
-		"navigationBarTextStyle": "black",
-		"navigationBarTitleText": "uni-app",
-		"navigationBarBackgroundColor": "#F8F8F8",
-		"backgroundColor": "#F8F8F8"
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "传统文化",
+		"navigationBarBackgroundColor": "#007AFF",
+		"backgroundColor": "#F2F2F7"
 	},
 	"uniIdRouter": {}
 }
