@@ -14,12 +14,12 @@
 			</view>
 
 			<view class="btn-group">
-				<view class="btn-wrapper" @click="goToCompass">
+				<!-- <view class="btn-wrapper" @click="goToCompass">
 					<view class="btn btn-compass">
 						<view class="btn-icon">🧭</view>
 						<text class="btn-text">指南针</text>
 					</view>
-				</view>
+				</view> -->
 
 				<view class="btn-wrapper" @click="goToLiuyao">
 					<view class="btn btn-liuyao">
@@ -39,11 +39,11 @@
 <script>
 export default {
 	methods: {
-		goToCompass() {
-			uni.navigateTo({
-				url: '/pages/compass/index'
-			});
-		},
+		// goToCompass() {
+		// 	uni.navigateTo({
+		// 		url: '/pages/compass/index'
+		// 	});
+		// },
 		goToLiuyao() {
 			uni.navigateTo({
 				url: '/pages/liuyao/index'

@@ -370,7 +370,11 @@ export default {
 
 		initSimple() {
 			const now = new Date();
+			const month = now.getMonth() + 1;
+			const day = now.getDate();
 			const hour = now.getHours();
+			this.lunarMonth = month;
+			this.lunarDay = day;
 			this.shichenIndex = this.getShichenIndex(hour);
 			this.selectedShichen = this.shichenList[this.shichenIndex];
 		},

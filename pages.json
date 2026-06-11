@@ -13,13 +13,6 @@
 				"navigationBarTitleText": "天道",
 				"navigationStyle": "custom"
 			}
-		},
-		{
-			"path": "pages/compass/index",
-			"style": {
-				"navigationBarTitleText": "指南针",
-				"navigationStyle": "custom"
-			}
 		}
 	],
 	"globalStyle": {
